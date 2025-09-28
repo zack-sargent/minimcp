@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7fde093cebd47e14c8e9f4ffbad0cdcc" label="MCP API Keys" max_length="40" name="x_snc_zs_mcp_api_keys" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Expiration" mandatory="true" max_length="40" name="expiration" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="2048" name="description" type="string"/>
+        <element attributes="encode_utf8=false" label="Key User" mandatory="true" max_length="32" name="key_user" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Key Name" mandatory="true" max_length="256" name="key_name" type="string"/>
+        <element label="Assist Count" max_length="40" name="assist_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Key Secret" mandatory="true" max_length="256" name="key_secret" type="string"/>
+        <index name="index">
+            <element name="key_user"/>
+        </index>
+    </element>
+</database>

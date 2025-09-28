@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-27 16:56:59</sys_created_on>
+        <sys_id>65eec93cebd47e14c8e9f4ffbad0cd5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_zs_mcp_api_keys.x_snc_zs_mcp.admin</sys_name>
+        <sys_package display_value="Mini MCP Server" source="x_snc_zs_mcp">894d8934ebd47e14c8e9f4ffbad0cd35</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mini MCP Server">894d8934ebd47e14c8e9f4ffbad0cd35</sys_scope>
+        <sys_security_acl display_value="x_snc_zs_mcp_api_keys">a5eec93cebd47e14c8e9f4ffbad0cd43</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_65eec93cebd47e14c8e9f4ffbad0cd5a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-27 16:56:59</sys_updated_on>
+        <sys_user_role display_value="x_snc_zs_mcp.admin" name="x_snc_zs_mcp.admin">bc7d0df4ebd47e14c8e9f4ffbad0cd24</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
